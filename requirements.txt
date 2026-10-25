@@ -1,0 +1,5 @@
+# 运行时依赖（推理口径；训练/评估另需 scipy）
+# scikit-learn 钉在 1.9.x：模型是 joblib pickle，跨大版本加载可能失效
+numpy>=1.26,<3
+scikit-learn>=1.9,<2
+joblib>=1.4,<2
